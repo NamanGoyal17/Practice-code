@@ -11,7 +11,7 @@ public class remove_from_array {
 		}
 		int tar = scan.nextInt();
         // loop nahi lagega...
-		lis.removeIf(i->i==tar);
+		lis.removeIf(i->i==tar); //........... IN ARRAYLIST WE CAN ABLE TO USE TO removeIf() FUNCTION TO DELETE A SPECIFIC ELEMENT IN A ARRAY LIST.........
 		for(int i =0;i<lis.size();i++) {
 			System.out.print(lis.get(i)+" ");
 		}
